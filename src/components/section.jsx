@@ -1,5 +1,5 @@
 import SectionSvg from "../assets/svg/SectionSvg";
-const section = ({
+const Section = ({
   classname,
   id,
   crosses,
@@ -10,12 +10,13 @@ const section = ({
   return (
     <div
       id={id}
-      className={`relative ${
+      className={`
+      relative 
+      ${
         customPaddings ||
-        `py-10 lg:py-16 xl:py-20 ${
-          crosses ? "lg:py-32 xl:py-40" : ""
-        } ${classname}`
-      }`}
+        `py-10 lg:py-16 xl:py-20 ${crosses ? "lg:py-32 xl:py-40" : ""}`
+      }
+        ${classname || ""}`}
     >
       {children}
       <div className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:left-7.5 xl:left-10" />
@@ -34,4 +35,4 @@ const section = ({
   );
 };
 
-export default section;
+export default Section;
