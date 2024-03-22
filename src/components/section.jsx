@@ -9,7 +9,7 @@ const Section = ({
 }) => {
   return (
     <div
-      id={id || ""}
+      id={id}
       className={`
       relative 
       ${
