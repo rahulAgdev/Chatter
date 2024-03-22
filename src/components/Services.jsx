@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "./Heading";
-import Section from "./Section";
+import Section from "./Section/Section";
 import { service1, service2, service3, check } from "../assets";
 import Generating from "./Generating";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";

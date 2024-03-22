@@ -1,4 +1,4 @@
-import Section from "./Section";
+ from "./Section";
 import { collabApps, collabContent, collabText } from "../constants";
 import { brainwave, brainwaveSymbol, check } from "../assets";
 import Button from "./Button";

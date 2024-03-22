@@ -1,4 +1,4 @@
-import Section from "../components/Section";
+import Section from "./Section/Section";
 import { smallSphere, stars } from "../assets";
 import { MouseParallax } from "react-just-parallax";
 import Heading from "./Heading";
