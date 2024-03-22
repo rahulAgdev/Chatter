@@ -1,8 +1,8 @@
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Arrow from "../assets/svg/Arrow";
- from "./Section/Section";
 import { GradientLight } from "./design/Benefits";
+import Section from "./Section/Section";
 import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
